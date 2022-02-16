@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19H524" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PayeeDataMO" representedClassName=".PayeeDataMO" syncable="YES">
+        <attribute name="bank" optional="YES" attributeType="String"/>
+        <attribute name="bank_logo" optional="YES" attributeType="String"/>
+        <attribute name="benacctno" optional="YES" attributeType="String"/>
+        <attribute name="benaccttype" optional="YES" attributeType="String"/>
+        <attribute name="beneficiaryID" optional="YES" attributeType="String"/>
+        <attribute name="beneficiaryType" optional="YES" attributeType="String"/>
+        <attribute name="benfullname" optional="YES" attributeType="String"/>
+        <attribute name="bennickname" optional="YES" attributeType="String"/>
+        <attribute name="benstatus" optional="YES" attributeType="String"/>
+        <attribute name="childid" optional="YES" attributeType="String"/>
+        <attribute name="coolinghour" optional="YES" attributeType="String"/>
+        <attribute name="createdtime" optional="YES" attributeType="String"/>
+        <attribute name="favourites" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String" spotlightIndexingEnabled="YES">
+            <userInfo>
+                <entry key="key" value="value"/>
+            </userInfo>
+        </attribute>
+        <attribute name="ifsccode" optional="YES" attributeType="String"/>
+        <attribute name="imps_ifsc" optional="YES" attributeType="String"/>
+        <attribute name="isBlocked" optional="YES" attributeType="String"/>
+        <attribute name="mmid" optional="YES" attributeType="String"/>
+        <attribute name="mobilenumber" optional="YES" attributeType="String"/>
+        <attribute name="notiid" optional="YES" attributeType="String"/>
+        <attribute name="parentid" optional="YES" attributeType="String"/>
+        <attribute name="time_remaining" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="PayeeDataMO" positionX="662.0546875" positionY="-28.3046875" width="128" height="373"/>
+    </elements>
+</model>
